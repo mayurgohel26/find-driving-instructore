@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    font-family: 'Gabarito', cursive;
+}
+
+.hero-section {
+    width: 100%;
+    height: 800px;
+    background: url(assets/bg-hero-img.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-one h1,
+p {
+    color: #17214D;
+}
+
+.hero-one h1 {
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.hero-one p {
+    font-size: 1.75vw;
+    padding: 15px 0;
+}
+
+.hero-one {
+    padding-left: 40vw;
+
+}
+
+.inp-sec button {
+    background-color: #F4A640;
+    color: #17214D;
+    padding: 7px 10px;
+    border: 1px solid #F4A640;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inp input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    margin-top: -20px;
+}
+
+.bxs {
+    padding: 5vw;
+}
+
+.bxs h2 {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.bxs p {
+    padding-bottom: 15px;
+}
+
+.all-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-one {
+    padding: 20px;
+    background: linear-gradient(0deg, #FFFFFF 13.15%, #E06C6C 113.15%);
+    margin: 5px;
+}
+
+.bx-tw {
+    background: linear-gradient(0deg, #FFFFFF 13.15%, #FFD67D 113.15%);
+}
+
+.bx-thr {
+    background: linear-gradient(0deg, #FFFFFF 13.15%, #AEE896 113.15%);
+}
+
+.box-one h4 {
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.box-one ul {
+    padding-left: 0;
+}
+
+.box-one ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fa-solid {
+    background-color: #E06C6C;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.fa-two {
+    background: #FAB726;
+}
+
+.fa-three {
+    background: #2BC48A;
+}
+
+.drive-tst {
+    background: linear-gradient(240deg, #FFFFFF 13.27%, #5AC1DF 114.13%);
+    padding: 5vw;
+}
+
+.right-text {
+    padding-left: 15px;
+}
+
+.right-text ul {
+    padding-left: 0px;
+}
+
+.right-text ul li {
+    list-style: none;
+}
+
+.right-text h3 {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+button {
+    background-color: #F4A640;
+    color: #17214D;
+    padding: 7px 15px;
+    border: 1px solid #F4A640;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+.driving-test {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose {
+    background: linear-gradient(60deg, #FFFFFF 13.15%, #FFE2B3 113.15%);
+    padding: 5vw;
+}
+
+.choose {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text h3 {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.left-text h5 {
+    font-weight: bold;
+}
+
+.left-text h6 {
+    font-weight: 700;
+    color: #F4A640;
+}
+
+.exp {
+    padding: 50px;
+}
+
+.exp h2 {
+    font-weight: bold;
+    color: #17214D;
+}
+
+.exp-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 0 80px;
+}
+
+.exp-sec h4 {
+    font-weight: bold;
+}
+
+.one-exp {
+    margin: 15px;
+    padding: 25px;
+    background: linear-gradient(290deg, #FFFFFF 5.99%, #E06C6C 113.12%);
+}
+
+.one-exp .img {
+    padding-bottom: 25px;
+}
+
+.two-exp {
+    margin: 15px;
+    padding: 25px;
+    background: linear-gradient(290deg, #FFFFFF 0.03%, #BAECA5 113.12%);
+}
+
+.two-exp .img {
+    padding-bottom: 25px;
+}
+
+.three-exp {
+    margin: 15px;
+    padding: 25px;
+    background: linear-gradient(290deg, #FFFFFF 5.99%, #7DCEE6 113.12%);
+}
+
+.three-exp .img {
+    padding-bottom: 25px;
+}
+
+.four-exp {
+    margin: 15px;
+    padding: 25px;
+    background: linear-gradient(290deg, #FFFFFF 0.01%, #B8ACFF 113.14%);
+}
+
+.four-exp .img {
+    padding-bottom: 25px;
+}
+
+.spon-cont {
+    background: rgba(255, 242, 221, 1);
+    padding: 35px 0;
+}
+
+.sponser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponser .spo-one {
+    padding: 15px;
+}
+
+.main-ftr {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-ftr h4 {
+    font-weight: bold;
+}
+
+.main-ftr ul {
+    padding: 0;
+}
+
+.main-ftr ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.main-ftr ul li a {
+    text-decoration: none;
+    color: #17214D;
+}
+
+
+
+/* https://www.figma.com/file/u9WgrgOl5dAjozv8PZA2O8/Untitled?type=design&node-id=0-14&mode=design&t=VG4UN2GDF4CJ18TX-0 */

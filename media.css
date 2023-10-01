@@ -1,0 +1,166 @@
+@media(max-width:1200px) {
+    .hero-section {
+        height: 600px;
+    }
+
+    .hero-one {
+        padding-left: 50vw;
+    }
+
+    .all-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .exp-sec {
+        padding: 10px;
+    }
+}
+
+@media (max-width:1100px) {
+    .hero-section {
+        height: 500px;
+    }
+
+    .hero-one {
+        padding-left: 55vw;
+    }
+}
+
+@media (max-width:992px) {
+    .hero-section {
+        height: 400px;
+    }
+
+    .hero-one h1 {
+        font-weight: bold;
+    }
+
+    .hero-one p {
+        padding: 15px 0;
+    }
+
+    .driving-test {
+        grid-template-columns: 1fr;
+    }
+
+    .right-text {
+        margin: 25px auto;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .choose {
+        grid-template-columns: 1fr;
+    }
+
+    .left-text {
+        padding: 35px 0;
+    }
+
+    .exp-sec {
+        grid-template-columns: 1fr;
+    }
+
+    .sponser {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-ftr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:768px) {
+    .hero-section {
+        height: 400px;
+    }
+
+    .hero-one h1 {
+        font-weight: bold;
+    }
+
+    .hero-one p {
+        padding: 8px 0;
+    }
+
+    .all-box {
+        grid-template-columns: 1fr;
+    }
+
+    .sponser {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-ftr {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:576px) {
+    .hero-one h1 {
+        font-weight: bold;
+    }
+
+    .hero-one p {
+        padding: 5px 0;
+    }
+
+    .inp input {
+        padding: 8px;
+    }
+
+    .exp {
+        padding: 40px 10px;
+    }
+
+    .sponser {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-ftr {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .hero-section {
+        height: 340px;
+    }
+
+    .hero-one h1 {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+
+    .hero-one p {
+        font-size: 3vw;
+        padding: 5px 0;
+    }
+
+    .inp input {
+        padding: 5px;
+    }
+
+    .exp {
+        padding: 5px;
+    }
+
+    .exp-sec {
+        padding: 0px;
+    }
+}
